@@ -1,6 +1,6 @@
 # univ
 
-cs50p
+# cs50p
 0. Functions, Variables
 1. Conditionals
 2. Loops
