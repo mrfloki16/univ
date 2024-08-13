@@ -1,6 +1,6 @@
 # univ
 
-## cs50p [python] (https://www.python.org/)
+## cs50p [python](https://www.python.org/)
 0. Functions, Variables
 1. Conditionals
 2. Loops
