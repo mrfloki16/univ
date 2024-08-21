@@ -2,22 +2,17 @@
 
 def main():
   plate = input("Plate: ")
-  while True:
-    if not good_length(plate):
-      print("Invalid")
-      break
-    elif not first_char(plate):
-      print("Invalid")
-      break
-    elif not good_num(plate):
-      print("Invalid")
-      break
-    elif not good_char(plate):
-      print("Invalid")
-      break
-    else:
-      print("Valid")
-      break
+
+  if not good_length(plate):
+    print("Invalid")
+  elif not first_char(plate):
+    print("Invalid")
+  elif not good_num(plate):
+    print("Invalid")
+  elif not good_char(plate):
+    print("Invalid")
+  else:
+    print("Valid")
 
 def good_length(s):
   return len(s) < 7 and len(s) > 1
