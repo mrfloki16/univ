@@ -13,6 +13,3 @@ def test_ponctuation():
 
 def test_number():
   assert shorten("twitter#1") == "twttr#1"
-
-if __name__ == "__main__":
-  main()
